@@ -25,11 +25,13 @@ presented as if it happened on Wednesday:
   It takes effect on 1 December for more than four million workers,
   after weeks of protests; unions had sought 18,000 taka.
   Sources: Reuters, TRT World, Prothom Alo, CNA.
-- Bogor, Indonesia: rescuers recover three bodies on Wednesday
-  from a flooded unauthorised gold mine and keep searching for 26
+- Bogor, Indonesia: rescuers recover nine bodies on Wednesday
+  from a flooded unauthorised gold mine and keep searching for 17
   workers trapped in a 100-metre shaft since Monday, when a river
   overflowed after heavy rain. Eleven miners escaped on Monday.
-  Sources: Reuters, CNA, Al Jazeera, Straits Times.
+  The toll rose during Wednesday, from three bodies recovered by
+  midday to nine by the evening.
+  Sources: Reuters, CNA, Al Jazeera, Straits Times, AP.
 - Pyongyang, North Korea: KCNA reports on Wednesday that North
   Korea has declared Sylvain Astier, head of the Swiss diplomatic
   office, persona non grata, giving him 48 hours to leave, and has
@@ -38,16 +40,17 @@ presented as if it happened on Wednesday:
   Kim Yo Jong threatened its closure on Tuesday.
   Sources: Reuters, Japan Times, CNA, Le Temps.
 
-Ticker, also Wednesday: the Saudi-led coalition strikes Hodeidah
-port early on Wednesday, and targets in Saada and Amran, a day
-after a Houthi drone hit a Riyadh tower and wounded 11 people,
-with four drones intercepted over Ras Tanura on Wednesday;
-Shanghai stocks fall 2 percent on Wednesday to their lowest close
-since July 2025 as a US tariff probe on 16 partners looms, and
-Beijing urges Washington to keep trade stable; the bodies of six
-people are found early on Wednesday after a Cessna 210 crashed
-on Tuesday off Horn Island, Mississippi, including two boys aged
-8 and 10.
+Ticker, also Wednesday: Iran's Revolutionary Guards say four
+tankers — three oil tankers and an LNG carrier — hit naval mines
+and caught fire in the Strait of Hormuz on Wednesday, two of them
+early in the day, in the third day of mine incidents there after
+three tankers on Monday and a tanker and a container ship on
+Tuesday; Shanghai stocks fall 2 percent on Wednesday to their
+lowest close since July 2025 as a US tariff probe on 16 partners
+looms, and Beijing urges Washington to keep trade stable; the
+bodies of six people are found early on Wednesday after a Cessna
+210 crashed on Tuesday off Horn Island, Mississippi, including
+two boys aged 8 and 10.
 """
 
 from pathlib import Path
@@ -153,9 +156,9 @@ def render_page():
           "of protests. It takes effect 1 Dec for 4 million workers.",
           title_pt=26, detail_pt=20)
     panel(d, (22, 698, 500, 916), (28, 110, 56), "BOGOR  -  INDONESIA",
-          "3 BODIES FOUND IN FLOODED GOLD MINE",
-          "Rescuers recover 3 bodies Wednesday and keep searching "
-          "for 26 workers trapped in a 100m shaft since Monday's "
+          "9 DEAD IN FLOODED GOLD MINE",
+          "Rescuers recover 9 bodies Wednesday and keep searching "
+          "for 17 workers trapped in a 100m shaft since Monday's "
           "river flood.",
           title_pt=26, detail_pt=20)
     panel(d, (524, 698, 1002, 916), (28, 64, 142), "PYONGYANG  -  N. KOREA",
@@ -168,7 +171,8 @@ def render_page():
     # Ticker along the foot of the page.
     d.rectangle([0, 928, SIZE, SIZE], fill=NAVY)
     ticker_text = (
-        "ALSO WEDNESDAY:  SAUDI-LED COALITION STRIKES HODEIDAH PORT  *  "
+        "ALSO WEDNESDAY:  IRAN SAYS 4 TANKERS HIT MINES AND CATCH FIRE "
+        "IN STRAIT OF HORMUZ  *  "
         "SHANGHAI STOCKS FALL 2% TO LOWEST CLOSE SINCE JULY 2025  *  "
         "BODIES OF 6 FOUND AFTER TUESDAY CESSNA CRASH OFF MISSISSIPPI"
     )

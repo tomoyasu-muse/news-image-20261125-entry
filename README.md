@@ -24,17 +24,20 @@ cross-checked across several news sources reporting that day:
 - Bangladesh's wage board approves a 36% rise in the garment minimum
   wage early on Wednesday, to 17,000 taka a month from 12,500, after
   weeks of protests, for more than four million workers
-- Rescuers recover three bodies on Wednesday from a flooded gold mine
-  in Bogor, Indonesia, and keep searching for 26 workers trapped in
-  a 100-metre shaft since Monday's river flood
+- Rescuers recover nine bodies on Wednesday from a flooded gold mine
+  in Bogor, Indonesia, and keep searching for 17 workers trapped in
+  a 100-metre shaft since Monday's river flood (the toll rose during
+  Wednesday, from three bodies by midday to nine by the evening)
 - North Korea expels the head of the Swiss diplomatic office in
   Pyongyang on Wednesday, giving him 48 hours to leave, and orders
   the office shut, after Swiss sanctions on a children's camp
 
-A ticker adds the Saudi-led coalition striking Hodeidah port early on
-Wednesday, Shanghai stocks falling 2% on Wednesday to their lowest
-close since July 2025, and the bodies of six people found early on
-Wednesday after a Cessna 210 crashed on Tuesday off Mississippi.
+A ticker adds Iran saying four tankers — three oil tankers and an
+LNG carrier — hit naval mines and caught fire in the Strait of
+Hormuz on Wednesday, Shanghai stocks falling 2% on Wednesday to
+their lowest close since July 2025, and the bodies of six people
+found early on Wednesday after a Cessna 210 crashed on Tuesday
+off Mississippi.
 
 Stories first reported on Tuesday 24 November — the Shanghai party
 chief investigation, the Huawei verdict, and Ukraine's 2027 financing
